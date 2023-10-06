@@ -5,5 +5,5 @@ provider "aws" {
 
 module "dynamodb" {
     source = "../modules/dynamodb"
-    env_name = var.dev_env_name
+  
 }
