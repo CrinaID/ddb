@@ -4,6 +4,6 @@ provider "aws" {
 }
 
 module "dynamodb" {
-    source = "../modules/dynamodb"
+    source = "../modules/ddb"
   
 }
